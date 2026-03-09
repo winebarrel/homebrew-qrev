@@ -3,7 +3,7 @@ cask "qrev" do
   name "qrev"
   desc "qrev is a SQL execution history management tool."
   homepage "https://github.com/winebarrel/qrev"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "qrev" do
   on_macos do
     on_intel do
       url "https://github.com/winebarrel/qrev/releases/download/v#{version}/qrev_#{version}_darwin_amd64.tar.gz"
-      sha256 "a4c35ccb3d7a5f29c9fa82a77d6a39df5bcb3db285502e621b24e3a973e4bd95"
+      sha256 "b7320937b40809a0f90d50359c5b003581386cea81b85121c9052f1468e95a12"
     end
     on_arm do
       url "https://github.com/winebarrel/qrev/releases/download/v#{version}/qrev_#{version}_darwin_arm64.tar.gz"
-      sha256 "fc1fc25f392d59c7f05b3d4148acd073eaf14128dd0b0ce14be9528b90768121"
+      sha256 "6cb6774c1f78f50968f05d48187407a86949d3533f3381ed793306eab76651dd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/winebarrel/qrev/releases/download/v#{version}/qrev_#{version}_linux_amd64.tar.gz"
-      sha256 "357cdf8c78d6ffe9b081c6118078be0471873a1dd265ee2aff6e36081e9770cf"
+      sha256 "9ad7d0ea641d6a79ba38372d8ff417ec2bc64c1c27a0da4b923c75d168e8e82d"
     end
     on_arm do
       url "https://github.com/winebarrel/qrev/releases/download/v#{version}/qrev_#{version}_linux_arm64.tar.gz"
-      sha256 "8988f2c54e17fce8b338a80ade999060d825235e7cce2b48c024dce79ca4caff"
+      sha256 "530451a6317227e3a40018d865a2da39316cfc1fa8f2af5ccf4292bd3375ff3b"
     end
   end
 
